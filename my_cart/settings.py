@@ -23,7 +23,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 with open('key.txt', 'r') as key:
     django_key = key.read() 
 
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = django_key
 
 # SECURITY WARNING: don't run with debug turned on in production!
